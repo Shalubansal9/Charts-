@@ -11,7 +11,7 @@ function App() {
     datasets: [{
       label: "Users with Adopted Technology",
       data: UserData.map((data)=>data.user),
-      backgroundColor: ["#00ffff","#663399","#ff6347","#87ceeb","#fa8072"],
+      backgroundColor: ["#00ffff","#dd74f5","#ff6347","#87ceeb","#fa8072"],
     },],
   };
   const [userData, setUserData] = useState(initialData);
